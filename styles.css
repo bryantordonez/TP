@@ -29,9 +29,10 @@ nav ul li a {
 }
 
 h2 {
-  font-family: "Reddit Sans", sans-serif;
+  font-family: "Jersey 25", sans-serif;
   margin-bottom: 10px;
   margin-left: 9.5%;
+  letter-spacing: 2px;
 }
 
 .home {
@@ -53,6 +54,7 @@ h2 {
   margin-left: 100px;
   max-width: 40%;
   color: white;
+  font-family: "Reddit Sans", sans-serif;
 }
 
 .home-info img {
@@ -169,6 +171,11 @@ footer {
   padding: 20px;
 }
 
+footer a {
+  color: white;
+  text-decoration: none;
+}
+
 footer::before {
   content: '';
   position: absolute;
@@ -186,5 +193,11 @@ footer::before {
   font-family: "Reddit Sans", sans-serif;
   font-optical-sizing: auto;
   font-weight: 100;
+  font-style: normal;
+}
+
+.jersey-25-regular {
+  font-family: "Jersey 25", sans-serif;
+  font-weight: 400;
   font-style: normal;
 }
