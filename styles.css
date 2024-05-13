@@ -169,6 +169,19 @@ footer {
   padding: 20px;
 }
 
+footer::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background-image: url('Image/space-background.webp');
+  z-index: -1;
+  transform: skewY(7deg);
+  transform-origin: bottom right;
+}
+
 .reddit-sans-regular {
   font-family: "Reddit Sans", sans-serif;
   font-optical-sizing: auto;
