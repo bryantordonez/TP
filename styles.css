@@ -1,0 +1,177 @@
+body {
+  margin: 0;
+  font-family: "Reddit Sans", sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: yellow;
+  color: black;
+}
+
+.logo img {
+  max-width: 50px;
+  height: auto;
+  margin-left: 30%;
+}
+
+nav ul li {
+  display: inline;
+  margin-left: 20px;
+}
+
+nav ul li a {
+  color: black;
+  text-decoration: none;
+}
+
+h2 {
+  font-family: "Reddit Sans", sans-serif;
+  margin-bottom: 10px;
+  margin-left: 9.5%;
+}
+
+.home {
+  background-image: url('Image/space-background.webp');
+  background-size: cover;
+  background-position: center;
+  padding: 40px;
+  color: white;
+}
+
+.home-info {
+  display: flex;
+  width:100%;
+  gap: 10%
+}
+
+.text {
+  padding: 2%;
+  margin-left: 100px;
+  max-width: 40%;
+  color: white;
+}
+
+.home-info img {
+  max-width: 80%;
+  height: auto;
+  margin-top: 10%;
+}
+
+.image img {
+  width: 200px;
+  height: auto;
+  max-width: 200px;
+  max-height: 200px;
+  margin-bottom: 10px;
+}
+
+.categories {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.category {
+  flex: 1;
+  background-color: #f2f2f2;
+  padding: 20px;
+  text-align: center;
+  border-radius: 10px;
+  margin: 0 10px;
+}
+
+.items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.item {
+  width: calc(33.33% - 20px);
+  margin: 0 10px 20px;
+  text-align: center;
+  background-color: #f2f2f2;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.item img {
+  width: 200px;
+  height: auto;
+  max-width: 200px;
+  max-height: 200px;
+  margin-bottom: 10px;
+}
+
+@media (max-width: 767px) {
+  .item {
+    width: calc(33.33% - 20px);
+  }
+}
+
+.contact {
+  text-align: center;
+}
+
+.contact h2 {
+  margin-bottom: 20px;
+}
+
+.contact-form {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.field {
+  margin-bottom: 20px;
+  text-align: left;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.field label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.field input,
+.field textarea {
+  width: 100%;
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.field textarea {
+  resize: vertical;
+}
+
+button[type="submit"] {
+  background-color: #333;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-bottom: 40px;
+}
+
+footer {
+  position: relative;
+  background-color: #000;
+  color: #fff;
+  padding: 20px;
+}
+
+.reddit-sans-regular {
+  font-family: "Reddit Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+}
